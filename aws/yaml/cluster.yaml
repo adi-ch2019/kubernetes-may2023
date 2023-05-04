@@ -1,0 +1,14 @@
+---
+apiVersion: eksctl.io/v1aphha5
+kind: ClusterConfig
+
+metadata:
+  name: adi-eks
+  region: india-south-2
+  tags:
+    project: aws-learn
+    
+ nodeGroups:
+  - name: worker-node
+    instanceType: m5.large
+    desiredCapacity: 3
