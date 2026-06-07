@@ -1,4 +1,4 @@
-# AWS Projects Portfolio
+# AWS Projects Learning
 
 ## Scalable Kubernetes Infrastructure
 
